@@ -15,23 +15,29 @@
 	
 </head>
 <body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<!-- header -->
 	<div class="header"><div class="section-inner">
 		<h1>My Trip to Russia</h1>
 	</div></div><!--/header-->
 	
+	
+	
 	<!-- nav -->
 	<div class="nav"><div class="section-inner">
 		<ul class="clearfix">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Sample Link 1</a></li>
-			<li><a href="#">Sample Link 2</a></li>
-			<li><a href="#">Sample Link 3</a></li>
-			<li><a href="#">Sample Link 4</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="#">Contact</a></li>
+		<div class="fb-share-button" 
+		data-href="http://www.your-domain.com/your-page.html" 
+		data-layout="button_count">
+	</div>
 		</ul>
 	</div></div><!--/nav-->
 	
@@ -45,21 +51,21 @@
 			<div class="one-third mobile-collapse">
 				<img src="images/1.jpg" alt="The State Historical Museum of Moscow" />
 				<h2>The State Historical Museum of Moscow</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>This is a beautiful picture that I took near the Red Square. The red coloring and the statue of Marshal Zhukov are an imposing and impressive sight. This museum was built by architect Vladimir Sherwood. The museum itself holds a collection of artifacts that tell the history of Russian dating back to the Paleolithic period.  Each hall in the museum corresponds to an era of signifiance. There is even a restaurant inside.</p>
 			</div><!--/one-third-->
 			
 			<!-- one-third -->
 			<div class="one-third one-third-second mobile-collapse">
 				<img src="images/2.jpg" alt="The People's Friendship Fountain" />
 				<h2>The People's Friendship Fountain</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>This was one of the more miraculous pictures I took during my journey because it details impressive artwork as well as history. Sculpted by Joseph Chaikov, There are 16 golden scultpures at this fountain, each representating a republic of the Soviet Union. I was fortunate to have visited during the summer, because this fountain is not operating during the cold months. </p>
 			</div><!--/one-third-->
 			
 			<!-- one-third -->
 			<div class="one-third one-third-last mobile-collapse">
 				<img src="images/3.jpg" alt="Palace of Catherine the Great" />
 				<h2>Palace of Catherine the Great</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Another picture of mine, this palace was dedicated to Catherine the Great, the most renowned and longest-ruling leader of Russia. It was to serve as her own estate, but she ordered it torn down because the rooms were too dark and too small. This original structure dating back to the 18th century is still visible today. The new, construction of the new, approved palace was ceased due to Catherine's death, however the picture you see was the result of the palace being completed and reworked between 2005-07.</p>
 			</div><!--/one-third-->
 			
 		</div><!--/thirds-->
@@ -74,7 +80,7 @@
 				
 				<p>During Summer, 2017, I visited Moscow. It was the 2nd time I had been outside of the USA, but this experience was far different from my first. I had always been interested in the culture and history of Russia. The fact that I am half-Russian contributes to that interest. I wanted to learn more about this land from which my family came. It was a joyous experience due to the rich culture and history of this country.</p>
 				
-				<p>What interests me most about Moscow culturally is how it revolves around the Orthodox Christian Church. This religion is an important facet to the Russians. What captivated me was that only a small percentage of the US identifies as Orthodox Christian. Meanwhile, most of Eastern Europe identifies with this religion and it was nice to learn more about it. I visited the Cathedral of Christ the Saviour, which is the tallest Orthodox Christian church in the world. </p>
+				<p>What interests me most about Moscow culturally is how it involves the Orthodox Christian Church. This religion is an important facet to the Russians. What captivated me was that only a small percentage of the US identifies as Orthodox Christian. Meanwhile, most of Eastern Europe identifies with this religion and it was nice to learn more about it. I visited the Cathedral of Christ the Saviour, which is the tallest Orthodox Christian church in the world. </p>
 				
 				<p>I also found the history to be particularly interesting. What I appreciate so much about Russia was its Czarist roots. It is a tragic interest of mine in what followed the ruling of the Czars, because this country was turned on its head following the Bolshevik Revolution. The Soviet Union spawned innovative genius that can be seen in their space museum, as well as horrors such as famine that can be read about. The statues of Vladimir Lenin still stand today as a reminder of their history. </p>
 				
@@ -85,25 +91,26 @@
 				
 				<!-- info-box -->
 				<div class="info-box-a">
-					<h4>Important Content</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<h4>Interesting Facts:</h4>
+					<p>Moscow can reach -30 Celsius at night time during winter. This is made even more astounding when you realize that water freezes at 0 Celsius.</p>
 				</div><!--/info-box-->
 				
 				<!-- info-box -->
 				<div class="info-box-b hide-mobile">
-					<h4>Not Vital</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<h4></h4>
+					<p>The subways in Moscow date back to the Soviet era. Some of their trains are modernized with English speaking systems, whereas some are old and obviously Communist-era style.</p>
 				</div><!--/info-box-->
 				
 				<!-- info-box -->
 				<div class="info-box-b hide-mobile">
-					<h4>Not Vital</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<h4></h4>
+					<p>Russia is a very conservative country. Some of the liberal tendencies of the West are frowned upon in the motherland, so it is best to be aware of your behavior while traveling.</p>
 				</div><!--/info-box-->
 				
 			</div><!--/side-->
 			
 		</div><!--/two-columns-->
+		<div class="fb-share-button" data-href="https://chroze.github.io/cse322/" data-layout="box_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchroze.github.io%2Fcse322%2F&amp;src=sdkpreparse">Sharen on Facebook!</a></div>
 		
 	</div></div><!--/body-content-->
 	
@@ -114,11 +121,10 @@
 		
 	</div></div><!--/footer-->
 	
+	
+
+	
+	
 </body>
 
-<style>
-	body {
-		background-color:red;
-	}
-</style>
 </html>
